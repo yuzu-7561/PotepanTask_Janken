@@ -88,7 +88,7 @@ class Game
         if @my_win > @enemy_win
           puts "めでとうございます！#{@my_win}対#{@enemy_win}であなたの勝ちです！"
         elsif @my_win < @enemy_win
-          puts "残念！{@my_win}対#{@enemy_win}で相手の勝ちです！"
+          puts "残念！#{@my_win}対#{@enemy_win}で相手の勝ちです！"
         else
           puts "#{@my_win}対#{@enemy_win}で結果は引き分けです！"
         end
